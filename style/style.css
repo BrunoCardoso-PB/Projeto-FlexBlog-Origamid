@@ -298,8 +298,8 @@ img{
 
 .qualidade-item p{
     color: #7c7c7c;
-    display: block;
-    padding-top: 10px;
+    font-size: 1.25em;
+    line-height: 1.4em;
 }
 
 .qualidade-item:nth-of-type(1) h2::before{
@@ -320,3 +320,33 @@ img{
 .qualidade-item:nth-of-type(6) h2::before{
     background: #66d9eb;
 }
+
+/*Nesletter*/
+
+.newsletter{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 60px auto;
+    max-width: 960px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.newsletter-info h1{
+    font-size: 2.50em;
+    color: #a4a4a4;
+    
+    
+}
+
+.newsletter-info p{
+    color: #7c7c7c;
+    font-style: italic;
+    font-size: 1.25em;
+}
+
+.newsletter-form{
+    border: 2px solid blue;
+}
+
